@@ -1,36 +1,6 @@
 <Solution>
-
-  <Folder Name="/docs/">
-  </Folder>
-
-  <Folder Name="/Solution Items/">
-    <File Path=".editorconfig" />
-    <File Path=".gitignore" />
-    <File Path="Directory.Build.props" />
-    <File Path="Directory.Packages.props" />
-    <File Path="README.md" />
-  </Folder>
-
   <Folder Name="/src/">
+    <Project Path="src/LucidTensor.Console/LucidTensor.Console.csproj" />
     <Project Path="src/LucidTensor.Core/LucidTensor.Core.csproj" />
-    <Project Path="src/LucidTensor.IO/LucidTensor.IO.csproj" />
-    <Project Path="src/LucidTensor.UI/LucidTensor.UI.csproj" />
-  </Folder>
-
-  <Folder Name="/tests/">
-    <Project Path="tests/LucidTensor.Tests/LucidTensor.Tests.csproj" />
-  </Folder>
-
-  <Folder Name="/hosts/">
-    <Project Path="hosts/LucidTensor.UI.Desktop/LucidTensor.UI.Desktop.csproj" />
-    <Project Path="hosts/LucidTensor.UI.Browser/LucidTensor.UI.Browser.csproj" />
-    
-    <Project Path="hosts/LucidTensor.UI.Android/LucidTensor.UI.Android.csproj">
-      <Deploy />
-    </Project>
-    
-    <Project Path="hosts/LucidTensor.UI.iOS/LucidTensor.UI.iOS.csproj">
-      <Deploy />
-    </Project>
   </Folder>
 </Solution>
